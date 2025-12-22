@@ -1,12 +1,14 @@
-body{
+body {
     background-color: aquamarine;
 }
-.container{
+
+.container {
     display: flex;
-    justify-content: center;  
-    gap: 100px;              
-    flex-wrap: wrap;          
-  }
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
 
 /* task-1  */
 .tsk1btn {
@@ -18,10 +20,9 @@ body{
     color: white;
     letter-spacing: 5px;
     text-shadow: 3px 3px 5px black;
-    box-shadow: 6px 6px 10px black, inset -6px 10px white ;
     box-shadow:
-        10px 10px 20px black,   
-         -10px -10px 20px white;
+        10px 10px 20px black,
+        -10px -10px 20px white;
     cursor: pointer;
     transition: all 0.2s ease;
 
@@ -32,4 +33,54 @@ body{
         inset 6px 6px 9px black,
         inset -4px -4px 7px white;
     text-shadow: 1px 1px 3px black;
+}
+
+/* task-2  */
+.task2 {
+    margin: 30px;
+    padding: 10px;
+}
+
+.img1 {
+    width: 230px;
+    height: 230px;
+    transition: transform 1s ease, filter 1s ease;
+
+}
+
+.card {
+    width: 230px;
+    background-color: white;
+    overflow: hidden;
+    transition: box-shadow 1s ease;
+
+}
+
+.task2-p {
+    color: brown;
+    font-size: 28px;
+    margin: 8px 0 10px;
+
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task2-btn {
+    background-color: rgb(25, 101, 8);
+    border: none;
+    border-radius: 5px;
+}
+
+.task2:hover {
+    box-shadow: 5px 5px 20px 10px rgb(247, 1, 1), -5px -5px 20px 10px rgb(247, 0, 0);
+
+}
+
+.card:hover .img1 {
+    transform: scale(1.5);
+    filter: grayscale(100%);
 }
