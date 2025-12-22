@@ -1,0 +1,35 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+    justify-content: center;  
+    gap: 100px;              
+    flex-wrap: wrap;          
+  }
+
+/* task-1  */
+.tsk1btn {
+    margin: 10px;
+    padding: 30px 80px;
+    background-color: rgb(240, 105, 255);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 5px black;
+    box-shadow: 6px 6px 10px black, inset -6px 10px white ;
+    box-shadow:
+        10px 10px 20px black,   
+         -10px -10px 20px white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+
+.tsk1btn:active {
+    box-shadow:
+        inset 6px 6px 9px black,
+        inset -4px -4px 7px white;
+    text-shadow: 1px 1px 3px black;
+}
