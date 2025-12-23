@@ -129,6 +129,7 @@ body {
     transform: translate(-50%, -50%);
     font-size: 40px;
     font-weight: bold;
+    text-shadow: 3px 3px 4px black;
     color: green;
   }
   
