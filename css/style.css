@@ -62,6 +62,9 @@ body {
     margin: 8px 0 10px;
 
 }
+.task2-p2{
+    color: red;
+}
 
 .card2 {
     display: flex;
